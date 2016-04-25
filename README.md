@@ -1,3 +1,14 @@
+# Add Teacher
+    sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "http://10.10.10.16/repo"
+
+    sudo defaults write /Library/Preferences/ManagedInstalls ClientIdentifier "teacher"
+
+# Add Student
+
+    sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "http://10.10.10.16/repo"
+
+    sudo defaults write /Library/Preferences/ManagedInstalls ClientIdentifier "student"
+
 # Munki Setup on OS X El Capitan Server
 [Link to guide](https://osxdominion.wordpress.com/2015/02/26/setting-up-munki-with-os-x-yosemite-server/)
 
